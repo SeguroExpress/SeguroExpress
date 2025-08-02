@@ -1,1122 +1,1108 @@
 <!DOCTYPE html>
 <html lang="pt">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SeguroExpress - Seguros Digitais em Angola</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-     <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/688d530fcabd591931919135/1j1k0otvm';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/688d530fcabd591931919135/1j1k0otvm';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
     <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-263LVXSHW3"
-    ></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-263LVXSHW3"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
 
-      gtag("config", "G-263LVXSHW3");
+        gtag("config", "G-263LVXSHW3");
     </script>
     <style>
-      :root {
-        --orange-primary: #f26c02;
-        --orange-dark: #d65a00;
-        --white: #ffffff;
-        --gray-dark: #2c2c2c;
-        --gray-medium: #444444;
-        --gray-light: #f4f4f4;
-        --blue-light: #3a95ff;
-      }
-
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        font-family: "Inter", sans-serif;
-        color: var(--gray-dark);
-        line-height: 1.6;
-      }
-
-      h1,
-      h2,
-      h3,
-      h4 {
-        font-family: "Poppins", sans-serif;
-        font-weight: 600;
-        color: var(--gray-dark);
-      }
-
-      .container {
-        width: 100%;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 20px;
-      }
-
-      /* Header */
-      header {
-        background-color: var(--white);
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        position: fixed;
-        width: 100%;
-        z-index: 100;
-      }
-
-      .header-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 15px 0;
-      }
-
-      .logo {
-        display: flex;
-        align-items: center;
-      }
-
-      .logo img {
-        height: 40px;
-      }
-
-      .logo-text {
-        font-family: "Poppins", sans-serif;
-        font-weight: 700;
-        font-size: 24px;
-        color: var(--orange-primary);
-        margin-left: 10px;
-      }
-
-      nav ul {
-        display: flex;
-        list-style: none;
-      }
-
-      nav ul li {
-        margin-left: 30px;
-      }
-
-      nav ul li a {
-        text-decoration: none;
-        color: var(--gray-dark);
-        font-weight: 500;
-        transition: color 0.3s;
-      }
-
-      nav ul li a:hover {
-        color: var(--orange-primary);
-      }
-
-      .mobile-menu-btn {
-        display: none;
-        background: none;
-        border: none;
-        font-size: 24px;
-        color: var(--gray-dark);
-        cursor: pointer;
-      }
-
-      /* Hero Section */
-      .hero {
-        background: linear-gradient(
-          135deg,
-          rgba(242, 108, 2, 0.1) 0%,
-          rgba(255, 255, 255, 1) 100%
-        );
-        padding: 180px 0 100px;
-        text-align: center;
-      }
-
-      .hero h1 {
-        font-size: 42px;
-        margin-bottom: 20px;
-        line-height: 1.2;
-      }
-
-      .hero p {
-        font-size: 18px;
-        max-width: 700px;
-        margin: 0 auto 40px;
-        color: var(--gray-medium);
-      }
-
-      .hero-buttons {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        margin-bottom: 50px;
-      }
-
-      .btn {
-        display: inline-block;
-        padding: 12px 30px;
-        border-radius: 50px;
-        font-weight: 600;
-        text-decoration: none;
-        transition: all 0.3s;
-      }
-
-      .btn-primary {
-        background-color: var(--orange-primary);
-        color: var(--white);
-      }
-
-      .btn-primary:hover {
-        background-color: var(--orange-dark);
-        transform: translateY(-2px);
-      }
-
-      .btn-secondary {
-        background-color: var(--white);
-        color: var(--orange-primary);
-        border: 2px solid var(--orange-primary);
-      }
-
-      .btn-secondary:hover {
-        background-color: var(--orange-primary);
-        color: var(--white);
-        transform: translateY(-2px);
-      }
-
-      .hero-image {
-        max-width: 300px;
-        margin: 0 auto;
-        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-        border-radius: 20px;
-        overflow: hidden;
-      }
-
-      .hero-image img {
-        width: 100%;
-        height: auto;
-        display: block;
-      }
-
-      /* About Section */
-      .about {
-        padding: 100px 0;
-        background-color: var(--white);
-      }
-
-      .section-title {
-        text-align: center;
-        margin-bottom: 60px;
-      }
-
-      .section-title h2 {
-        font-size: 36px;
-        margin-bottom: 15px;
-      }
-
-      .section-title p {
-        max-width: 700px;
-        margin: 0 auto;
-        color: var(--gray-medium);
-      }
-
-      .about-content {
-        display: flex;
-        align-items: center;
-        gap: 60px;
-      }
-
-      .about-text {
-        flex: 1;
-      }
-
-      .about-text h3 {
-        font-size: 28px;
-        margin-bottom: 20px;
-      }
-
-      .about-text p {
-        margin-bottom: 20px;
-      }
-
-      .about-stats {
-        display: flex;
-        gap: 30px;
-        margin-top: 30px;
-      }
-
-      .stat-item {
-        text-align: center;
-      }
-
-      .stat-number {
-        font-size: 36px;
-        font-weight: 700;
-        color: var(--orange-primary);
-        margin-bottom: 5px;
-      }
-
-      .stat-label {
-        font-size: 14px;
-        color: var(--gray-medium);
-      }
-
-      .about-image {
-        flex: 1;
-        text-align: center;
-      }
-
-      .about-image img {
-        max-width: 100%;
-        border-radius: 10px;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-      }
-
-      /* Benefits Section */
-      .benefits {
-        padding: 100px 0;
-        background-color: var(--gray-light);
-      }
-
-      .benefits-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 30px;
-        margin-top: 50px;
-      }
-
-      .benefit-card {
-        background-color: var(--white);
-        padding: 30px;
-        border-radius: 10px;
-        text-align: center;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-        transition: transform 0.3s, box-shadow 0.3s;
-      }
-
-      .benefit-card:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-      }
-
-      .benefit-icon {
-        font-size: 40px;
-        color: var(--orange-primary);
-        margin-bottom: 20px;
-      }
-
-      .benefit-card h3 {
-        margin-bottom: 15px;
-        font-size: 20px;
-      }
-
-      .benefit-card p {
-        color: var(--gray-medium);
-      }
-
-      /* How It Works Section */
-      .how-it-works {
-        padding: 100px 0;
-        background-color: var(--white);
-      }
-
-      .steps {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 50px;
-        position: relative;
-      }
-
-      .step {
-        flex: 1;
-        text-align: center;
-        position: relative;
-        z-index: 1;
-      }
-
-      .step-number {
-        width: 60px;
-        height: 60px;
-        background-color: var(--orange-primary);
-        color: var(--white);
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 24px;
-        font-weight: 700;
-        margin: 0 auto 20px;
-      }
-
-      .step h3 {
-        margin-bottom: 15px;
-        font-size: 20px;
-      }
-
-      .step p {
-        color: var(--gray-medium);
-        max-width: 200px;
-        margin: 0 auto;
-      }
-
-      .steps-line {
-        position: absolute;
-        top: 30px;
-        left: 0;
-        right: 0;
-        height: 2px;
-        background-color: var(--gray-light);
-        z-index: 0;
-      }
-
-      /* Insurance Types Section */
-      .insurance-types {
-        padding: 100px 0;
-        background-color: var(--gray-light);
-      }
-
-      .types-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 20px;
-        margin-top: 50px;
-      }
-
-      .type-card {
-        background-color: var(--white);
-        padding: 30px 20px;
-        border-radius: 10px;
-        text-align: center;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-        transition: all 0.3s;
-      }
-
-      .type-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-      }
-
-      .type-icon {
-        font-size: 40px;
-        color: var(--orange-primary);
-        margin-bottom: 20px;
-      }
-
-      .type-card h3 {
-        margin-bottom: 10px;
-        font-size: 18px;
-      }
-
-      /* Testimonials Section */
-      .testimonials {
-        padding: 100px 0;
-        background-color: var(--white);
-      }
-
-      .testimonials-slider {
-        margin-top: 50px;
-        position: relative;
-      }
-
-      .testimonial {
-        background-color: var(--gray-light);
-        padding: 30px;
-        border-radius: 10px;
-        margin: 0 15px;
-      }
-
-      .testimonial-text {
-        font-style: italic;
-        margin-bottom: 20px;
-        color: var(--gray-dark);
-      }
-
-      .testimonial-author {
-        display: flex;
-        align-items: center;
-      }
-
-      .author-avatar {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        overflow: hidden;
-        margin-right: 15px;
-      }
-
-      .author-avatar img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-
-      .author-info h4 {
-        margin-bottom: 5px;
-        font-size: 16px;
-      }
-
-      .author-info p {
-        color: var(--gray-medium);
-        font-size: 14px;
-      }
-
-      /* Partners Section */
-      .partners {
-        padding: 80px 0;
-        background-color: var(--gray-light);
-      }
-
-      .partners-grid {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 30px;
-        margin-top: 40px;
-      }
-
-      .partner-logo {
-        max-width: 150px;
-        filter: grayscale(100%);
-        opacity: 0.7;
-        transition: all 0.3s;
-      }
-
-      .partner-logo:hover {
-        filter: grayscale(0%);
-        opacity: 1;
-      }
-
-      .partner-logo img {
-        width: 100%;
-        height: auto;
-      }
-
-      /* CTA Section */
-      .cta {
-        padding: 100px 0;
-        background: linear-gradient(
-          135deg,
-          var(--orange-primary) 0%,
-          var(--orange-dark) 100%
-        );
-        color: var(--white);
-        text-align: center;
-      }
-
-      .cta h2 {
-        font-size: 36px;
-        margin-bottom: 20px;
-        color: var(--white);
-      }
-
-      .cta p {
-        max-width: 700px;
-        margin: 0 auto 40px;
-        font-size: 18px;
-      }
-
-      .cta-buttons {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-      }
-
-      .btn-white {
-        background-color: var(--white);
-        color: var(--orange-primary);
-      }
-
-      .btn-white:hover {
-        background-color: rgba(255, 255, 255, 0.9);
-        color: var(--orange-primary);
-        transform: translateY(-2px);
-      }
-
-      .btn-outline-white {
-        background-color: transparent;
-        color: var(--white);
-        border: 2px solid var(--white);
-      }
-
-      .btn-outline-white:hover {
-        background-color: var(--white);
-        color: var(--orange-primary);
-        transform: translateY(-2px);
-      }
-
-      /* Footer */
-      footer {
-        background-color: var(--gray-dark);
-        color: var(--white);
-        padding: 60px 0 30px;
-      }
-
-      .footer-content {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 40px;
-        margin-bottom: 40px;
-      }
-
-      .footer-column h3 {
-        color: var(--white);
-        margin-bottom: 20px;
-        font-size: 18px;
-      }
-
-      .footer-column ul {
-        list-style: none;
-      }
-
-      .footer-column ul li {
-        margin-bottom: 10px;
-      }
-
-      .footer-column ul li a {
-        color: rgba(255, 255, 255, 0.7);
-        text-decoration: none;
-        transition: color 0.3s;
-      }
-
-      .footer-column ul li a:hover {
-        color: var(--white);
-      }
-
-      .footer-bottom {
-        text-align: center;
-        padding-top: 30px;
-        border-top: 1px solid rgba(255, 255, 255, 0.1);
-        color: rgba(255, 255, 255, 0.5);
-        font-size: 14px;
-      }
-
-      .social-links {
-        display: flex;
-        gap: 15px;
-        margin-top: 20px;
-      }
-
-      .social-links a {
-        color: var(--white);
-        font-size: 20px;
-        transition: color 0.3s;
-      }
-
-      .social-links a:hover {
-        color: var(--orange-primary);
-      }
-
-      /* Responsive Styles */
-      @media (max-width: 992px) {
-        .about-content {
-          flex-direction: column;
-          gap: 40px;
+        :root {
+            --orange-primary: #f26c02;
+            --orange-dark: #d65a00;
+            --white: #ffffff;
+            --gray-dark: #2c2c2c;
+            --gray-medium: #444444;
+            --gray-light: #f4f4f4;
+            --blue-light: #3a95ff;
         }
 
-        .steps {
-          flex-direction: column;
-          gap: 40px;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
-        .steps-line {
-          display: none;
+        body {
+            font-family: "Inter", sans-serif;
+            color: var(--gray-dark);
+            line-height: 1.6;
         }
 
-        .step {
-          margin-bottom: 30px;
-        }
-      }
-
-      @media (max-width: 768px) {
-        .hero h1 {
-          font-size: 32px;
-        }
-
-        .hero p {
-          font-size: 16px;
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            color: var(--gray-dark);
         }
 
-        .hero-buttons {
-          flex-direction: column;
-          gap: 15px;
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
         }
 
-        .btn {
-          width: 100%;
-          max-width: 300px;
-          margin: 0 auto;
+        /* Header */
+        header {
+            background-color: var(--white);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            z-index: 100;
         }
 
-        .section-title h2 {
-          font-size: 28px;
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
         }
 
-        .about-stats {
-          flex-direction: column;
-          gap: 20px;
+        .logo {
+            display: flex;
+            align-items: center;
         }
 
-        .cta-buttons {
-          flex-direction: column;
-          gap: 15px;
+        .logo img {
+            height: 40px;
+        }
+
+        .logo-text {
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            color: var(--orange-primary);
+            margin-left: 10px;
         }
 
         nav ul {
-          display: none;
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 30px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: var(--gray-dark);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: var(--orange-primary);
         }
 
         .mobile-menu-btn {
-          display: block;
+            display: none;
+            background: none;
+            border: none;
+            font-size: 24px;
+            color: var(--gray-dark);
+            cursor: pointer;
         }
-      }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg,
+                    rgba(242, 108, 2, 0.1) 0%,
+                    rgba(255, 255, 255, 1) 100%);
+            padding: 180px 0 100px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: 0 auto 40px;
+            color: var(--gray-medium);
+        }
+
+        .hero-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .btn-primary {
+            background-color: var(--orange-primary);
+            color: var(--white);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--orange-dark);
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background-color: var(--white);
+            color: var(--orange-primary);
+            border: 2px solid var(--orange-primary);
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--orange-primary);
+            color: var(--white);
+            transform: translateY(-2px);
+        }
+
+        .hero-image {
+            max-width: 300px;
+            margin: 0 auto;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .hero-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* About Section */
+        .about {
+            padding: 100px 0;
+            background-color: var(--white);
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-title h2 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .section-title p {
+            max-width: 700px;
+            margin: 0 auto;
+            color: var(--gray-medium);
+        }
+
+        .about-content {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+        }
+
+        .about-text {
+            flex: 1;
+        }
+
+        .about-text h3 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .about-text p {
+            margin-bottom: 20px;
+        }
+
+        .about-stats {
+            display: flex;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 36px;
+            font-weight: 700;
+            color: var(--orange-primary);
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: var(--gray-medium);
+        }
+
+        .about-image {
+            flex: 1;
+            text-align: center;
+        }
+
+        .about-image img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Benefits Section */
+        .benefits {
+            padding: 100px 0;
+            background-color: var(--gray-light);
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .benefit-card {
+            background-color: var(--white);
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .benefit-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .benefit-icon {
+            font-size: 40px;
+            color: var(--orange-primary);
+            margin-bottom: 20px;
+        }
+
+        .benefit-card h3 {
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+
+        .benefit-card p {
+            color: var(--gray-medium);
+        }
+
+        /* How It Works Section */
+        .how-it-works {
+            padding: 100px 0;
+            background-color: var(--white);
+        }
+
+        .steps {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+            position: relative;
+        }
+
+        .step {
+            flex: 1;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .step-number {
+            width: 60px;
+            height: 60px;
+            background-color: var(--orange-primary);
+            color: var(--white);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: 700;
+            margin: 0 auto 20px;
+        }
+
+        .step h3 {
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+
+        .step p {
+            color: var(--gray-medium);
+            max-width: 200px;
+            margin: 0 auto;
+        }
+
+        .steps-line {
+            position: absolute;
+            top: 30px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background-color: var(--gray-light);
+            z-index: 0;
+        }
+
+        /* Insurance Types Section */
+        .insurance-types {
+            padding: 100px 0;
+            background-color: var(--gray-light);
+        }
+
+        .types-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 50px;
+        }
+
+        .type-card {
+            background-color: var(--white);
+            padding: 30px 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s;
+        }
+
+        .type-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .type-icon {
+            font-size: 40px;
+            color: var(--orange-primary);
+            margin-bottom: 20px;
+        }
+
+        .type-card h3 {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            padding: 100px 0;
+            background-color: var(--white);
+        }
+
+        .testimonials-slider {
+            margin-top: 50px;
+            position: relative;
+        }
+
+        .testimonial {
+            background-color: var(--gray-light);
+            padding: 30px;
+            border-radius: 10px;
+            margin: 0 15px;
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 20px;
+            color: var(--gray-dark);
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+        }
+
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 15px;
+        }
+
+        .author-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .author-info h4 {
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+
+        .author-info p {
+            color: var(--gray-medium);
+            font-size: 14px;
+        }
+
+        /* Partners Section */
+        .partners {
+            padding: 80px 0;
+            background-color: var(--gray-light);
+        }
+
+        .partners-grid {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .partner-logo {
+            max-width: 150px;
+            filter: grayscale(100%);
+            opacity: 0.7;
+            transition: all 0.3s;
+        }
+
+        .partner-logo:hover {
+            filter: grayscale(0%);
+            opacity: 1;
+        }
+
+        .partner-logo img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* CTA Section */
+        .cta {
+            padding: 100px 0;
+            background: linear-gradient(135deg,
+                    var(--orange-primary) 0%,
+                    var(--orange-dark) 100%);
+            color: var(--white);
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: var(--white);
+        }
+
+        .cta p {
+            max-width: 700px;
+            margin: 0 auto 40px;
+            font-size: 18px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .btn-white {
+            background-color: var(--white);
+            color: var(--orange-primary);
+        }
+
+        .btn-white:hover {
+            background-color: rgba(255, 255, 255, 0.9);
+            color: var(--orange-primary);
+            transform: translateY(-2px);
+        }
+
+        .btn-outline-white {
+            background-color: transparent;
+            color: var(--white);
+            border: 2px solid var(--white);
+        }
+
+        .btn-outline-white:hover {
+            background-color: var(--white);
+            color: var(--orange-primary);
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--gray-dark);
+            color: var(--white);
+            padding: 60px 0 30px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-column h3 {
+            color: var(--white);
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+
+        .footer-column ul {
+            list-style: none;
+        }
+
+        .footer-column ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-column ul li a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-column ul li a:hover {
+            color: var(--white);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 14px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            color: var(--white);
+            font-size: 20px;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: var(--orange-primary);
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 992px) {
+            .about-content {
+                flex-direction: column;
+                gap: 40px;
+            }
+
+            .steps {
+                flex-direction: column;
+                gap: 40px;
+            }
+
+            .steps-line {
+                display: none;
+            }
+
+            .step {
+                margin-bottom: 30px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .btn {
+                width: 100%;
+                max-width: 300px;
+                margin: 0 auto;
+            }
+
+            .section-title h2 {
+                font-size: 28px;
+            }
+
+            .about-stats {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav ul {
+                display: none;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+        }
     </style>
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- Header -->
     <header>
-      <div class="container header-container">
-        <div class="logo">
-          <!--  <img src="https://via.placeholder.com/40x40" alt="SeguroExpress Logo"> -->
-          <img
-            src="/image/logo.svg"
-            alt="SeguroExpress Logo"
-          />
-          <span class="logo-text">SeguroExpress</span>
+        <div class="container header-container">
+            <div class="logo">
+                <!--  <img src="https://via.placeholder.com/40x40" alt="SeguroExpress Logo"> -->
+                <img src="/image/logo.svg" alt="SeguroExpress Logo" />
+                <span class="logo-text">SeguroExpress</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#benefits">Benefícios</a></li>
+                    <li><a href="#how-it-works">Como Funciona</a></li>
+                    <li><a href="#insurance-types">Seguros</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
         </div>
-        <nav>
-          <ul>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#benefits">Benefícios</a></li>
-            <li><a href="#how-it-works">Como Funciona</a></li>
-            <li><a href="#insurance-types">Seguros</a></li>
-            <li><a href="#contact">Contato</a></li>
-          </ul>
-        </nav>
-        <button class="mobile-menu-btn">
-          <i class="fas fa-bars"></i>
-        </button>
-      </div>
     </header>
 
     <!-- Hero Section -->
     <section class="hero">
-      <div class="container">
-        <h1>Todas as seguradoras num só lugar</h1>
-        <p>
-          Contrate, gerencie e viva tranquilo. Seguros digitais simples e
-          acessíveis para você e sua família.
-        </p>
-        <div class="hero-buttons">
-          <a href="#" class="btn btn-primary">Baixar App</a>
-          <a href="#" class="btn btn-secondary">Ver como funciona</a>
+        <div class="container">
+            <h1>Todas as seguradoras num só lugar</h1>
+            <p>
+                Contrate, gerencie e viva tranquilo. Seguros digitais simples e
+                acessíveis para você e sua família.
+            </p>
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-primary">Baixar App</a>
+                <a href="#" class="btn btn-secondary">Ver como funciona</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/300x600" alt="SeguroExpress App" />
+            </div>
         </div>
-        <div class="hero-image">
-          <img
-            src="https://via.placeholder.com/300x600"
-            alt="SeguroExpress App"
-          />
-        </div>
-      </div>
     </section>
 
     <!-- About Section -->
     <section class="about" id="about">
-      <div class="container">
-        <div class="section-title">
-          <h2>O SeguroExpress</h2>
-          <p>
-            Revolucionando o acesso a seguros em Angola com tecnologia e
-            simplicidade
-          </p>
-        </div>
-        <div class="about-content">
-          <div class="about-text">
-            <h3>Seguros digitais feitos para você</h3>
-            <p>
-              O SeguroExpress é uma plataforma digital que permite comparar,
-              contratar e gerenciar seguros com simplicidade. Parcerias com
-              seguradoras nacionais garantem segurança, rapidez e preços justos.
-            </p>
-            <p>
-              Nossa missão é democratizar o acesso a seguros em Angola, tornando
-              o processo 100% digital e acessível para todos.
-            </p>
-            <div class="about-stats">
-              <div class="stat-item">
-                <div class="stat-number">+10</div>
-                <div class="stat-label">Seguradoras</div>
-              </div>
-              <div class="stat-item">
-                <div class="stat-number">5.000+</div>
-                <div class="stat-label">Apólices</div>
-              </div>
-              <div class="stat-item">
-                <div class="stat-number">24/7</div>
-                <div class="stat-label">Atendimento</div>
-              </div>
+        <div class="container">
+            <div class="section-title">
+                <h2>O SeguroExpress</h2>
+                <p>
+                    Revolucionando o acesso a seguros em Angola com tecnologia e
+                    simplicidade
+                </p>
             </div>
-          </div>
-          <div class="about-image">
-            <img
-              src="https://via.placeholder.com/500x400"
-              alt="Equipe SeguroExpress"
-            />
-          </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Seguros digitais feitos para você</h3>
+                    <p>
+                        O SeguroExpress é uma plataforma digital que permite comparar,
+                        contratar e gerenciar seguros com simplicidade. Parcerias com
+                        seguradoras nacionais garantem segurança, rapidez e preços justos.
+                    </p>
+                    <p>
+                        Nossa missão é democratizar o acesso a seguros em Angola, tornando
+                        o processo 100% digital e acessível para todos.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">+10</div>
+                            <div class="stat-label">Seguradoras</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">5.000+</div>
+                            <div class="stat-label">Apólices</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Atendimento</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/500x400" alt="Equipe SeguroExpress" />
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <!-- Benefits Section -->
     <section class="benefits" id="benefits">
-      <div class="container">
-        <div class="section-title">
-          <h2>Por que escolher o SeguroExpress?</h2>
-          <p>Oferecemos a melhor experiência em seguros digitais</p>
+        <div class="container">
+            <div class="section-title">
+                <h2>Por que escolher o SeguroExpress?</h2>
+                <p>Oferecemos a melhor experiência em seguros digitais</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Todas as seguradoras</h3>
+                    <p>
+                        Compare e escolha entre as melhores seguradoras do mercado em um
+                        só lugar.
+                    </p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Contratação rápida</h3>
+                    <p>
+                        Contrate seu seguro em menos de 5 minutos, direto do seu celular.
+                    </p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Documentos acessíveis</h3>
+                    <p>
+                        Todos seus documentos e histórico de seguros sempre disponíveis no
+                        app.
+                    </p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Sinistros online</h3>
+                    <p>
+                        Registre e acompanhe seus sinistros totalmente pelo aplicativo.
+                    </p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Atendimento humano</h3>
+                    <p>
+                        Suporte especializado disponível 24 horas por dia, 7 dias por
+                        semana.
+                    </p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Segurança garantida</h3>
+                    <p>
+                        Seus dados protegidos com as melhores práticas de segurança
+                        digital.
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="benefits-grid">
-          <div class="benefit-card">
-            <div class="benefit-icon">
-              <i class="fas fa-shield-alt"></i>
-            </div>
-            <h3>Todas as seguradoras</h3>
-            <p>
-              Compare e escolha entre as melhores seguradoras do mercado em um
-              só lugar.
-            </p>
-          </div>
-          <div class="benefit-card">
-            <div class="benefit-icon">
-              <i class="fas fa-bolt"></i>
-            </div>
-            <h3>Contratação rápida</h3>
-            <p>
-              Contrate seu seguro em menos de 5 minutos, direto do seu celular.
-            </p>
-          </div>
-          <div class="benefit-card">
-            <div class="benefit-icon">
-              <i class="fas fa-file-alt"></i>
-            </div>
-            <h3>Documentos acessíveis</h3>
-            <p>
-              Todos seus documentos e histórico de seguros sempre disponíveis no
-              app.
-            </p>
-          </div>
-          <div class="benefit-card">
-            <div class="benefit-icon">
-              <i class="fas fa-mobile-alt"></i>
-            </div>
-            <h3>Sinistros online</h3>
-            <p>
-              Registre e acompanhe seus sinistros totalmente pelo aplicativo.
-            </p>
-          </div>
-          <div class="benefit-card">
-            <div class="benefit-icon">
-              <i class="fas fa-headset"></i>
-            </div>
-            <h3>Atendimento humano</h3>
-            <p>
-              Suporte especializado disponível 24 horas por dia, 7 dias por
-              semana.
-            </p>
-          </div>
-          <div class="benefit-card">
-            <div class="benefit-icon">
-              <i class="fas fa-lock"></i>
-            </div>
-            <h3>Segurança garantida</h3>
-            <p>
-              Seus dados protegidos com as melhores práticas de segurança
-              digital.
-            </p>
-          </div>
-        </div>
-      </div>
     </section>
 
     <!-- How It Works Section -->
     <section class="how-it-works" id="how-it-works">
-      <div class="container">
-        <div class="section-title">
-          <h2>Como funciona?</h2>
-          <p>Contratar um seguro nunca foi tão fácil</p>
+        <div class="container">
+            <div class="section-title">
+                <h2>Como funciona?</h2>
+                <p>Contratar um seguro nunca foi tão fácil</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Baixe o App</h3>
+                    <p>Disponível na App Store e Google Play gratuitamente</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Crie sua conta</h3>
+                    <p>Cadastro rápido e verificação em poucos minutos</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Compare e contrate</h3>
+                    <p>Escolha a melhor opção entre diversas seguradoras</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Acompanhe tudo</h3>
+                    <p>Gerencie seu seguro direto do seu celular</p>
+                </div>
+                <div class="steps-line"></div>
+            </div>
         </div>
-        <div class="steps">
-          <div class="step">
-            <div class="step-number">1</div>
-            <h3>Baixe o App</h3>
-            <p>Disponível na App Store e Google Play gratuitamente</p>
-          </div>
-          <div class="step">
-            <div class="step-number">2</div>
-            <h3>Crie sua conta</h3>
-            <p>Cadastro rápido e verificação em poucos minutos</p>
-          </div>
-          <div class="step">
-            <div class="step-number">3</div>
-            <h3>Compare e contrate</h3>
-            <p>Escolha a melhor opção entre diversas seguradoras</p>
-          </div>
-          <div class="step">
-            <div class="step-number">4</div>
-            <h3>Acompanhe tudo</h3>
-            <p>Gerencie seu seguro direto do seu celular</p>
-          </div>
-          <div class="steps-line"></div>
-        </div>
-      </div>
     </section>
 
     <!-- Insurance Types Section -->
     <section class="insurance-types" id="insurance-types">
-      <div class="container">
-        <div class="section-title">
-          <h2>Tipos de Seguro</h2>
-          <p>Encontre a cobertura perfeita para suas necessidades</p>
+        <div class="container">
+            <div class="section-title">
+                <h2>Tipos de Seguro</h2>
+                <p>Encontre a cobertura perfeita para suas necessidades</p>
+            </div>
+            <div class="types-grid">
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Automóvel</h3>
+                    <p>Proteção para seu veículo contra acidentes e roubos</p>
+                </div>
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Saúde</h3>
+                    <p>Cobertura médica e hospitalar para você e sua família</p>
+                </div>
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Habitação</h3>
+                    <p>Proteja sua casa contra incêndios, roubos e danos</p>
+                </div>
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-suitcase"></i>
+                    </div>
+                    <h3>Viagem</h3>
+                    <p>Cobertura para imprevistos durante suas viagens</p>
+                </div>
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Vida</h3>
+                    <p>Proteção financeira para sua família em qualquer situação</p>
+                </div>
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Empresarial</h3>
+                    <p>Soluções completas para proteger seu negócio</p>
+                </div>
+            </div>
         </div>
-        <div class="types-grid">
-          <div class="type-card">
-            <div class="type-icon">
-              <i class="fas fa-car"></i>
-            </div>
-            <h3>Automóvel</h3>
-            <p>Proteção para seu veículo contra acidentes e roubos</p>
-          </div>
-          <div class="type-card">
-            <div class="type-icon">
-              <i class="fas fa-heartbeat"></i>
-            </div>
-            <h3>Saúde</h3>
-            <p>Cobertura médica e hospitalar para você e sua família</p>
-          </div>
-          <div class="type-card">
-            <div class="type-icon">
-              <i class="fas fa-home"></i>
-            </div>
-            <h3>Habitação</h3>
-            <p>Proteja sua casa contra incêndios, roubos e danos</p>
-          </div>
-          <div class="type-card">
-            <div class="type-icon">
-              <i class="fas fa-suitcase"></i>
-            </div>
-            <h3>Viagem</h3>
-            <p>Cobertura para imprevistos durante suas viagens</p>
-          </div>
-          <div class="type-card">
-            <div class="type-icon">
-              <i class="fas fa-shield-alt"></i>
-            </div>
-            <h3>Vida</h3>
-            <p>Proteção financeira para sua família em qualquer situação</p>
-          </div>
-          <div class="type-card">
-            <div class="type-icon">
-              <i class="fas fa-briefcase"></i>
-            </div>
-            <h3>Empresarial</h3>
-            <p>Soluções completas para proteger seu negócio</p>
-          </div>
-        </div>
-      </div>
     </section>
 
     <!-- Testimonials Section -->
     <section class="testimonials">
-      <div class="container">
-        <div class="section-title">
-          <h2>O que nossos clientes dizem</h2>
-          <p>Veja a experiência de quem já usa o SeguroExpress</p>
-        </div>
-        <div class="testimonials-slider">
-          <div class="testimonial">
-            <p class="testimonial-text">
-              "Usei o SeguroExpress para fazer o seguro do meu carro. Foi super
-              rápido e economizei 30% comparado ao que pagava antes!"
-            </p>
-            <div class="testimonial-author">
-              <div class="author-avatar">
-                <img src="https://via.placeholder.com/50x50" alt="Maria" />
-              </div>
-              <div class="author-info">
-                <h4>Maria</h4>
-                <p>Luanda</p>
-              </div>
+        <div class="container">
+            <div class="section-title">
+                <h2>O que nossos clientes dizem</h2>
+                <p>Veja a experiência de quem já usa o SeguroExpress</p>
             </div>
-          </div>
-          <div class="testimonial">
-            <p class="testimonial-text">
-              "Facilitou minha vida como empreendedora. Consigo gerenciar todos
-              os seguros da minha loja direto do celular."
-            </p>
-            <div class="testimonial-author">
-              <div class="author-avatar">
-                <img src="https://via.placeholder.com/50x50" alt="Paulo" />
-              </div>
-              <div class="author-info">
-                <h4>Paulo</h4>
-                <p>Benguela</p>
-              </div>
+            <div class="testimonials-slider">
+                <div class="testimonial">
+                    <p class="testimonial-text">
+                        "Usei o SeguroExpress para fazer o seguro do meu carro. Foi super
+                        rápido e economizei 30% comparado ao que pagava antes!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://via.placeholder.com/50x50" alt="Maria" />
+                        </div>
+                        <div class="author-info">
+                            <h4>Maria</h4>
+                            <p>Luanda</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial-text">
+                        "Facilitou minha vida como empreendedora. Consigo gerenciar todos
+                        os seguros da minha loja direto do celular."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://via.placeholder.com/50x50" alt="Paulo" />
+                        </div>
+                        <div class="author-info">
+                            <h4>Paulo</h4>
+                            <p>Benguela</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
 
     <!-- Partners Section -->
     <section class="partners">
-      <div class="container">
-        <div class="section-title">
-          <h2>Nossos Parceiros</h2>
-          <p>Trabalhamos com as melhores seguradoras do mercado</p>
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Parceiros</h2>
+                <p>Trabalhamos com as melhores seguradoras do mercado</p>
+            </div>
+            <div class="partners-grid">
+                <div class="partner-logo">
+                    <img src="https://via.placeholder.com/150x60" alt="Seguradora 1" />
+                </div>
+                <div class="partner-logo">
+                    <img src="https://via.placeholder.com/150x60" alt="Seguradora 2" />
+                </div>
+                <div class="partner-logo">
+                    <img src="https://via.placeholder.com/150x60" alt="Seguradora 3" />
+                </div>
+                <div class="partner-logo">
+                    <img src="https://via.placeholder.com/150x60" alt="Seguradora 4" />
+                </div>
+            </div>
         </div>
-        <div class="partners-grid">
-          <div class="partner-logo">
-            <img src="https://via.placeholder.com/150x60" alt="Seguradora 1" />
-          </div>
-          <div class="partner-logo">
-            <img src="https://via.placeholder.com/150x60" alt="Seguradora 2" />
-          </div>
-          <div class="partner-logo">
-            <img src="https://via.placeholder.com/150x60" alt="Seguradora 3" />
-          </div>
-          <div class="partner-logo">
-            <img src="https://via.placeholder.com/150x60" alt="Seguradora 4" />
-          </div>
-        </div>
-      </div>
     </section>
 
     <!-- CTA Section -->
     <section class="cta">
-      <div class="container">
-        <h2>Proteja seu futuro hoje!</h2>
-        <p>
-          Comece agora e tenha a tranquilidade que você e sua família merecem.
-        </p>
-        <div class="cta-buttons">
-          <a href="#" class="btn btn-white">Baixar App</a>
-          <a href="#" class="btn btn-outline-white">Falar com Consultor</a>
+        <div class="container">
+            <h2>Proteja seu futuro hoje!</h2>
+            <p>
+                Comece agora e tenha a tranquilidade que você e sua família merecem.
+            </p>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-white">Baixar App</a>
+                <a href="#" class="btn btn-outline-white">Falar com Consultor</a>
+            </div>
         </div>
-      </div>
     </section>
 
     <!-- Footer -->
     <footer>
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-column">
-            <h3>SeguroExpress</h3>
-            <p>
-              Revolucionando o acesso a seguros em Angola com tecnologia e
-              simplicidade.
-            </p>
-            <div class="social-links">
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>SeguroExpress</h3>
+                    <p>
+                        Revolucionando o acesso a seguros em Angola com tecnologia e
+                        simplicidade.
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Produtos</h3>
+                    <ul>
+                        <li><a href="#">Seguro Auto</a></li>
+                        <li><a href="#">Seguro Saúde</a></li>
+                        <li><a href="#">Seguro Habitação</a></li>
+                        <li><a href="#">Seguro Viagem</a></li>
+                        <li><a href="#">Seguro Vida</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Empresa</h3>
+                    <ul>
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Carreiras</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Parcerias</a></li>
+                        <li><a href="#">Imprensa</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Ajuda</h3>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Reclamações</a></li>
+                    </ul>
+                </div>
             </div>
-          </div>
-          <div class="footer-column">
-            <h3>Produtos</h3>
-            <ul>
-              <li><a href="#">Seguro Auto</a></li>
-              <li><a href="#">Seguro Saúde</a></li>
-              <li><a href="#">Seguro Habitação</a></li>
-              <li><a href="#">Seguro Viagem</a></li>
-              <li><a href="#">Seguro Vida</a></li>
-            </ul>
-          </div>
-          <div class="footer-column">
-            <h3>Empresa</h3>
-            <ul>
-              <li><a href="#">Sobre Nós</a></li>
-              <li><a href="#">Carreiras</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Parcerias</a></li>
-              <li><a href="#">Imprensa</a></li>
-            </ul>
-          </div>
-          <div class="footer-column">
-            <h3>Ajuda</h3>
-            <ul>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Contato</a></li>
-              <li><a href="#">Termos de Uso</a></li>
-              <li><a href="#">Política de Privacidade</a></li>
-              <li><a href="#">Reclamações</a></li>
-            </ul>
-          </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 SeguroExpress. Todos os direitos reservados.</p>
+            </div>
         </div>
-        <div class="footer-bottom">
-          <p>&copy; 2023 SeguroExpress. Todos os direitos reservados.</p>
-        </div>
-      </div>
     </footer>
 
     <script>
-      // Simple JavaScript for mobile menu toggle
-      document
-        .querySelector(".mobile-menu-btn")
-        .addEventListener("click", function () {
-          document.querySelector("nav ul").classList.toggle("show");
+        // Simple JavaScript for mobile menu toggle
+        document
+            .querySelector(".mobile-menu-btn")
+            .addEventListener("click", function () {
+                document.querySelector("nav ul").classList.toggle("show");
+            });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+            anchor.addEventListener("click", function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute("href")).scrollIntoView({
+                    behavior: "smooth",
+                });
+            });
         });
 
-      // Smooth scrolling for anchor links
-      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-        anchor.addEventListener("click", function (e) {
-          e.preventDefault();
+        // Simple testimonial slider
+        let currentTestimonial = 0;
+        const testimonials = document.querySelectorAll(".testimonial");
 
-          document.querySelector(this.getAttribute("href")).scrollIntoView({
-            behavior: "smooth",
-          });
-        });
-      });
+        function showTestimonial(index) {
+            testimonials.forEach((testimonial) => {
+                testimonial.style.display = "none";
+            });
 
-      // Simple testimonial slider
-      let currentTestimonial = 0;
-      const testimonials = document.querySelectorAll(".testimonial");
+            testimonials[index].style.display = "block";
+        }
 
-      function showTestimonial(index) {
-        testimonials.forEach((testimonial) => {
-          testimonial.style.display = "none";
-        });
+        function nextTestimonial() {
+            currentTestimonial = (currentTestimonial + 1) % testimonials.length;
+            showTestimonial(currentTestimonial);
+        }
 
-        testimonials[index].style.display = "block";
-      }
-
-      function nextTestimonial() {
-        currentTestimonial = (currentTestimonial + 1) % testimonials.length;
-        showTestimonial(currentTestimonial);
-      }
-
-      // Initialize
-      showTestimonial(0);
-      setInterval(nextTestimonial, 5000);
+        // Initialize
+        showTestimonial(0);
+        setInterval(nextTestimonial, 5000);
     </script>
-  </body>
+</body>
+
 </html>
